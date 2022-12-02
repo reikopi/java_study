@@ -7,3 +7,13 @@ function foo() {
 }
 
 foo()
+
+var str = "cat"
+
+function foo() {
+  console.log(str)
+  var str = "cat kawaii"
+  console.log(str)
+}
+
+foo()
